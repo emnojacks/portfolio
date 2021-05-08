@@ -1,0 +1,110 @@
+        body {
+            background-color: #2d2d47;
+            background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+            color: #E9ECEF;
+        }
+        
+        .cardimg {
+            height: 250px;
+            object-fit: cover;
+            border-top-left-radius: 3em;
+            border-top-right-radius: 3em;
+        }
+        
+        h3 {
+            margin-top: 10%;
+            padding-left: 1.2em;
+        }
+        
+        h4 {
+            padding-left: 1.5em;
+        }
+        
+        .container {
+            margin: auto;
+            max-width: 900px;
+        }
+        
+        .card {
+            background-color: #1e1e40;
+            border-radius: 3em;
+        }
+        
+        p {
+            margin: auto;
+            padding-top: 1.4em;
+            padding-bottom: 1.4em;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+        /*add'ln class that wraps around bootstrap class*/
+        
+        .formdiv {
+            background-color: #655a3a;
+            opacity: 95%;
+            padding: 2em;
+            max-width: 900px;
+            margin: auto;
+            border-radius: 3em;
+        }
+        
+        .footerlink {
+            color: #6c757d!important
+        }
+        
+        #contactform {
+            margin-top: 0%;
+            margin-left: 1.8rem;
+            margin-right: 1.8rem;
+            margin-bottom: 2rem;
+        }
+        
+        .bg-dark {
+            background-color: #1e1e40!important;
+        }
+        
+        .footer {
+            text-align: center;
+            font-size: small;
+        }
+        
+        .form-text {
+            color: #bfb188;
+        }
+        
+        .form-label {
+            font-size: large;
+            font-weight: 500;
+        }
+        
+        .btn-secondary {
+            background-color: #97895F;
+            border-color: #97895F;
+            border-radius: .7em;
+            box-shadow: .02em .02em #bfb188;
+            margin-left: .3em;
+            margin-right: .3em;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #bfb188;
+            border-color: #bfb188;
+            box-shadow: .08em .08em #97895F;
+        }
+        
+        .py-3 {
+            margin-top: 2.5em!important;
+        }
+        
+        .form-control {
+            border-radius: 1em;
+            border-style: none;
+        }
+        
+        .form-control:focus {
+            outline: #bfb188;
+        }
+        
+        .contactheader {
+            margin-top: 1rem;
+        }

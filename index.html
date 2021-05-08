@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalGhost</title>
+    <!-- CSS from Bootstrap only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!--my own styles ontop of bootstrap must be placed below bs stylesheet-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <!--nav element for accessibiliy-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <!-- bg-dark as end of navbar class-->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#landing">DigitalGhost</a>
+
+            <!--hamburger button that shows on smaller screens-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <!--collapsible nav bar div-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#landing">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutme">bio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactform">contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--LANDING-->
+    <br>
+    <section id="landing">
+        <div class="container">
+            <h3>
+                welcome
+                <small class="text-muted">to DigitalGhost's portfolio</small>
+            </h3>
+            <br>
+            <div class="row-6">
+                <p class="lead">
+                    This is the portfolio of Emily Jackson (Em J), an aspiring web developer in the Indy area.
+                    <br><br> Em J loves webdesign and a UX that is minimalist / low carbon / ethical / conscientiously colored / mobile first / responsive / secure / and / accessible.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--about me/bio/links section-->
+    <section id="aboutme">
+        <div class="container">
+            <h3>about <small class="text-muted">DigitalGhost</small></h3>
+            <br>
+            <h4>education</h4>
+            <p>
+                Em J received her Bachelors and Masters from Indiana University's esteemed O’Neill School of Public and Environmental Affairs in Environmental Policy. Her concentrations were Natural Resource Management and Environmental Policy. In May 2021, she received
+                a Web Application Development Certificate from Ivy Tech College of Indiana. She will graduate 1150 Academy's Web Development Boot Camp in October 2021.
+            </p>
+            <h4>professional</h4>
+            <p>
+                Em J has worked in the waste reduction field for over a decade holding roles such as recycling site manager, account manager, program manager, director of stakeholder groups, and zero waste consultant. She is an Ellen MacArthur Circular Economy Pioneer
+                and owner of a circular economy consultancy called INcirculytics. She offers a variety of project management services including <strong>web content creation and development for sustainbility projects.</strong> Check out
+                some of her recent projects below.
+                <br><br>
+                <a href="https://drive.google.com/file/d/1ABht7OIKlqRrv_UbSDOWduDL9Uwlyg_N/view?usp=sharing" target="_blank"><button class="btn btn-secondary">CV</button></a>
+                <a href="https://drive.google.com/file/d/1jPjRKBqFaADotvoaWUO8HxB7BB9jLGRr/view?usp=sharing" target="_blank"><button class="btn btn-secondary">Resume</button></a>
+                <a href="https://www.linkedin.com/in/emily-jackson-86357551/" target="_blank"><button class="btn btn-secondary">LinkedIn</button></a>
+                <a href="https://github.com/emnojacks" target="_blank"><button class="btn btn-secondary">GitHub</button></a>
+
+            </p>
+
+        </div>
+    </section>
+
+    <!--CARDS/PROJECTS-->
+    <section id="projects">
+
+        <!--CARD 1-->
+        <div class="container">
+            <h3 style="margin-bottom:0%">projects</h3>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4" style="margin:15%; margin-top:0%; margin-bottom:5%">
+            <div class="col">
+                <div class="card">
+                    <a href="https://greenweb-api.web.app/" target="_blank">
+                        <img src="assets/trees.jpeg" class="card-img-top cardimg" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Green Domain API</h5>
+                        <p class="card-text">Green website search engine using Green Web Foundation API.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--CARD 2-->
+            <div class="col">
+                <div class="card">
+                    <a href="https://flightcarbon.web.app">
+                        <img src="assets/carboncapture.jpeg" class="card-img-top cardimg" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Flight Carbon API</h5>
+                        <p class="card-text">Estimate the carbon impact of your flights using Carbon Interface API.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--CARD 3-->
+            <div class="col">
+                <div class="card">
+                    <a href="https://indianarecycling.org/educational-resources/" target="_blank">
+                        <img src="assets/top-view-bottles-caps-plastic-waste.jpeg" class="card-img-top cardimg" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Indiana Recycling Coalition</h5>
+                        <p class="card-text">Content and design work for Indiana Recycling Coalition within Wordpress site.</p>
+                    </div>
+                </div>
+            </div>
+            <!--CARD 4-->
+            <div class="col">
+                <div class="card">
+                    <a href="https://eliotbigger.s3.amazonaws.com/index.html" target="_blank">
+                        <img src="assets/orange.jpg" class="card-img-top cardimg" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Eliot Bigger</h5>
+                        <p class="card-text">Page designed for local band, Eliot Bigger. Webflow framework, some hardcoding, fully responsive.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--CARD 5-->
+            <div class="col">
+                <div class="card">
+                    <a href="https://sites.google.com/view/ircstudy2020/home" target="_blank">
+                        <img src="assets/map2.jpeg" class="card-img-top cardimg" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Recycling Infrastructure Study</h5>
+                        <p class="card-text">Recycling Infrastructure Study Project site created using Google Sites framework.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--CARD 6-->
+            <div class="col">
+                <div class="card">
+                    <a href="https://www.incirculytics.com" target="_blank">
+                        <img src="assets/ce.jpeg" class="card-img-top cardimg" alt="...">
+                    </a>
+
+                    <div class="card-body">
+                        <h5 class="card-title">INcirculytics</h5>
+                        <p class="card-text">Circular economy consultancy website. Low carbon design using google sites framework.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--CARD 7-->
+            <div class="col">
+                <div class="card">
+                    <a href="https://emnojacks.github.io/static-layout/" target="_blank">
+                        <img src="assets/liquid-bg.jpg" class="card-img-top cardimg" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Static Layout Imitation</h5>
+                        <p class="card-text">Handcoded static imitation of existing Kast TV site using CSS.</p>
+                    </div>
+                </div>
+            </div>
+            <!--CARD 8-->
+            <div class="col">
+                <div class="card">
+                    <a href="https://codepen.io/emnojacks/pen/jOybZww" target="_blank">
+                        <img src="assets/fishwall.jpeg" class="card-img-top cardimg" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">CSS Creature</h5>
+                        <p class="card-text">Pepe the Frog interpretation created using CSS.</p>
+                    </div>
+                </div>
+            </div>
+            <!--CARD 9-->
+            <div class="col">
+                <div class="card">
+                    <a href="https://replit.com/join/jmjumsyt-emj1" target="_blank">
+                        <img src="assets/polygon.jpg" class="card-img-top cardimg" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">COVID PyGame</h5>
+                        <p class="card-text">Simple Pygame set to fast track you through three levels. Slow death version also
+                            <a href="https://replit.com/join/ybdqrfak-emj1" target="_blank">here</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <!--CARD 10-->
+            <div class="col">
+                <div class="card">
+                    <a href="https://ejackson.s3.amazonaws.com/SDEV250/Individual_Case_Project/M06_Submission/websecurity.html" target="_blank">
+                        <img src="assets/security.jpeg" class="card-img-top cardimg" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Web Security Page</h5>
+                        <p class="card-text">Details web security tips. Dynamically fetches information about your device, location, and web session.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--formspree-->
+
+    <section id="contactform">
+        <div class="container formdiv">
+            <h3 class="contactheader">contact me</h3>
+            <form id="contactform" action="https://formspree.io/f/xpzkzoql" method="POST">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" name="_replyto" class="form-control" id="name" aria-describedby="nae=meHelp" placeholder="Jane Doe">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" name="_replyto" class="form-control" id="email" aria-describedby="emailHelp" required="required" placeholder="janedoe@gmail.com">
+                    <div id="emailHelp" class="form-text">Your email will never be shared with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea name="message" id="message" class="form-control" required="required" placeholder="Why are you reaching out?"></textarea>
+                    </label>
+                </div>
+                <!-- your other form fields go here -->
+                <button type="submit" class="btn btn-secondary">Send</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!--FOOTER-->
+    <section id="footer">
+        <footer class="footer mt-auto py-3 bg-dark">
+            <div class="container">
+                <span class="text-muted">&copy; Digital Ghost  |  <a class="footerlink" href="https://www.incirculytics.com" target="_blank">incirculytics</a>  |   2021  |  <a class=
+                "footerlink" href="https://www.incirculytics.com/privacy-statement">Privacy Policy</a></span>
+            </div>
+        </footer>
+    </section>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+
+</html>
